@@ -24,13 +24,13 @@ DATABASE_PASSWORD=redhat
 RABBIT_PASSWORD=redhat
 SERVICE_PASSWORD=redhat
 
-#Enable heat services
+##Enable heat services
 enable_service h-eng h-api h-api-cfn h-api-cw
 
-#Enable heat plugin
+##Enable heat plugin
 enable_plugin heat https://opendev.org/openstack/heat
 
-#Enable Heat Dashboard
+##Enable Heat Dashboard
 enable_plugin heat-dashboard https://opendev.org/openstack/heat-dashboard
 
 
