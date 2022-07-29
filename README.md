@@ -17,7 +17,7 @@ Guide to Install Openstack Environment
 `vim local.conf`<br/>
 
 
-`stack@stack:~/devstack$ cat local.conf`
+`stack@stack:~/devstack$ cat local.conf`<br/>
 `[[local|localrc]]`<br/>
 `ADMIN_PASSWORD=redhat`<br/>
 `DATABASE_PASSWORD=redhat`<br/>
