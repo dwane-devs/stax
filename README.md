@@ -2,7 +2,7 @@
 Guide to Install Openstack Environment
 sudo  apt install vim net-tools -y
 
-sudo useradd -s /bin/bash -d /opt/stack -m stack
+`sudo useradd -s /bin/bash -d /opt/stack -m stack`
 
 
 
@@ -17,21 +17,21 @@ cd devstack
 vim local.conf
 
 
-stack@stack:~/devstack$ cat local.conf
+`stack@stack:~/devstack$ cat local.conf
 [[local|localrc]]
 ADMIN_PASSWORD=redhat
 DATABASE_PASSWORD=redhat
 RABBIT_PASSWORD=redhat
-SERVICE_PASSWORD=redhat
+SERVICE_PASSWORD=redhat`
 
 ##Enable heat services
-enable_service h-eng h-api h-api-cfn h-api-cw
+`enable_service h-eng h-api h-api-cfn h-api-cw`
 
 ##Enable heat plugin
-enable_plugin heat https://opendev.org/openstack/heat
+`enable_plugin heat https://opendev.org/openstack/heat`
 
 ##Enable Heat Dashboard
-enable_plugin heat-dashboard https://opendev.org/openstack/heat-dashboard
+`enable_plugin heat-dashboard https://opendev.org/openstack/heat-dashboard`
 
 
 
