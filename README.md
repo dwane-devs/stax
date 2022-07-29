@@ -4,8 +4,7 @@ Guide to Install Openstack Environment<br/>
 
 `sudo useradd -s /bin/bash -d /opt/stack -m stack`<br/>
 
-
-
+`sudo chmod +x /opt/stack`
 
 `echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack`<br/>
 
