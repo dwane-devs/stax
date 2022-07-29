@@ -1,6 +1,6 @@
 # stax
-Guide to Install Openstack Environment
-`sudo  apt install vim net-tools -y`<br/>
+Guide to Install Openstack Environment<br/>
+`sudo  apt install vim net-tools git -y`<br/>
 
 `sudo useradd -s /bin/bash -d /opt/stack -m stack`<br/>
 
@@ -12,7 +12,7 @@ Guide to Install Openstack Environment
 
 `sudo su - stack`<br/>
 
-`git clone https://opendev.org/openstack/devstack`<br/>
+`sudo git clone https://opendev.org/openstack/devstack`<br/>
 `cd devstack`<br/>
 `vim local.conf`<br/>
 
