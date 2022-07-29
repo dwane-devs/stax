@@ -16,7 +16,6 @@ git clone https://opendev.org/openstack/devstack
 cd devstack
 vim local.conf
 
-####
 
 stack@stack:~/devstack$ cat local.conf
 [[local|localrc]]
@@ -35,8 +34,8 @@ enable_plugin heat https://opendev.org/openstack/heat
 enable_plugin heat-dashboard https://opendev.org/openstack/heat-dashboard
 
 
-####
 
 
 ./stack.sh
+
 ![image](https://user-images.githubusercontent.com/103080332/181668527-1962a2ae-859c-4f4f-a598-b8a234de7ec8.png)
