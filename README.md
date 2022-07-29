@@ -9,7 +9,7 @@ Guide to Install Openstack Environment<br/>
 `echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/stack`<br/>
 
 
-`sudo su - stack`<br/>
+`sudo -u stack -i`<br/>
 
 `sudo git clone https://opendev.org/openstack/devstack`<br/>
 `cd devstack`<br/>
