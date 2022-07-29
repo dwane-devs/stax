@@ -14,7 +14,7 @@ Guide to Install Openstack Environment<br/>
 
 `sudo git clone https://opendev.org/openstack/devstack`<br/>
 `cd devstack`<br/>
-`vim local.conf`<br/>
+`sudo vim local.conf`<br/>
 
 
 `stack@stack:~/devstack$ cat local.conf`<br/>
@@ -24,13 +24,13 @@ Guide to Install Openstack Environment<br/>
 `RABBIT_PASSWORD=redhat`<br/>
 `SERVICE_PASSWORD=redhat`<br/>
 
-##Enable heat services<br/>
+#Enable heat services<br/>
 `enable_service h-eng h-api h-api-cfn h-api-cw`
 
-##Enable heat plugin<br/>
+#Enable heat plugin<br/>
 `enable_plugin heat https://opendev.org/openstack/heat`
 
-##Enable Heat Dashboard<br/>
+#Enable Heat Dashboard<br/>
 `enable_plugin heat-dashboard https://opendev.org/openstack/heat-dashboard`
 
 
