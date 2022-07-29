@@ -17,12 +17,12 @@ Guide to Install Openstack Environment
 `vim local.conf`<br/>
 
 
-`stack@stack:~/devstack$ cat local.conf
-[[local|localrc]]<br/>
-ADMIN_PASSWORD=redhat<br/>
-DATABASE_PASSWORD=redhat<br/>
-RABBIT_PASSWORD=redhat<br/>
-SERVICE_PASSWORD=redhat`<br/>
+`stack@stack:~/devstack$ cat local.conf`
+`[[local|localrc]]`<br/>
+`ADMIN_PASSWORD=redhat`<br/>
+`DATABASE_PASSWORD=redhat`<br/>
+`RABBIT_PASSWORD=redhat`<br/>
+`SERVICE_PASSWORD=redhat`<br/>
 
 ##Enable heat services<br/>
 `enable_service h-eng h-api h-api-cfn h-api-cw`
