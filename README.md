@@ -12,6 +12,7 @@ Guide to Install Openstack Environment<br/>
 `sudo -u stack -i`<br/>
 
 `sudo git clone https://opendev.org/openstack/devstack`<br/>
+`sudo chown -R stack:stack devstack`<br/>
 `cd devstack`<br/>
 `sudo vim local.conf`<br/>
 
